@@ -361,6 +361,9 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.b-parallax {
+    background-attachment: scroll;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -822,7 +825,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
