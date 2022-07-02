@@ -850,10 +850,17 @@ h2.mg-md.text-center.tc-white{
     z-index: 10;
 }
 
+.col-sm-4{
+   /* padding-left: 55px;   A SUPPRIMER PEUT ETRE */
+}
+
 .col-sm-12 li{
     
     padding-top: 14px;
     padding-bottom: 14px;
+}
+.col-sm-12 ul{
+   /* padding-left: 0px;   A SUPPRIMER PEUT ETRE */
 }
 
 @media (max-width: 1024px) {
