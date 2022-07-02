@@ -850,6 +850,10 @@ h2.mg-md.text-center.tc-white{
     z-index: 10;
 }
 
+.col-sm-12 li{
+    margin-top: 8px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
