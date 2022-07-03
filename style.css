@@ -863,6 +863,13 @@ h2.mg-md.text-center.tc-white{
    /* padding-left: 0px;   A SUPPRIMER PEUT ETRE */
 }
 
+blockquote p{
+    font-size: 20px;
+    border: none;
+    font-style: italic;
+    font-family: Helvetica ;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
