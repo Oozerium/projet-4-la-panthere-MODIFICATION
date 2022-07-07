@@ -821,10 +821,6 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
 }
@@ -854,14 +850,27 @@ h2.mg-md.text-center.tc-white{
    /* padding-left: 55px;   A SUPPRIMER PEUT ETRE */
 }
 
+.col-sm-12.text-center p{
+    font-size: 22px;
+    color: #000000;
+}
+#bloc-8{
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+p.text-center.black{
+   margin-bottom: 30px;
+}
+
 .col-sm-12 li{
     
     padding-top: 14px;
     padding-bottom: 14px;
 }
-.col-sm-12 ul{
-   /* padding-left: 0px;   A SUPPRIMER PEUT ETRE */
-}
+
 
 blockquote p{
     font-size: 20px;
