@@ -826,7 +826,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.webp");
 }
 
  li a{
@@ -1079,6 +1079,13 @@ blockquote p{
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .row.tight-width-whitespace{
+        margin-top: 0;
+        margin-bottom: 0;
+    }  
+    .col-sm-6{
+        margin-top: 20px;
     }
 }
 
