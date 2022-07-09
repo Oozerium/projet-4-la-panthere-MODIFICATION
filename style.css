@@ -846,10 +846,6 @@ h2.mg-md.text-center.tc-white{
     z-index: 10;
 }
 
-.col-sm-4{
-   /* padding-left: 55px;   A SUPPRIMER PEUT ETRE */
-}
-
 .col-sm-12.text-center p{
     font-size: 22px;
     color: #000000;
