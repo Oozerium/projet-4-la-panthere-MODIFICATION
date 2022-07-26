@@ -82,32 +82,21 @@
 						<form id="form_1" novalidate data-success-msg="Your message has been sent."
 							data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
-									Nom
-
-									<input id="name" class="form-control" required />
-								</label>
+								<label for="name">Nom</label>
+								<input id="name" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>
-									Adresse email
-
-									<input id="email" class="form-control" type="email" required />
-
-								</label>
+								<label for="email">Adresse email</label>
+								<input id="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>
-									Comment nous avez-vous connu ?
-
-									<input class="form-control" type="email" required id="input_504" />
-								</label>
+								<label for="connu">Comment nous avez-vous connu ?</label>
+								<input id="connu" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>
-									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-								</label>
+								<label for="message">Brief de votre projet (Ajoutez autant de détails que
+									nécessaire)</label>
+								<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 								type="submit">
@@ -138,25 +127,25 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social twitter" href="#" aria-label="Twitter"><span
+									<a class="social twitter" href="#" aria-label="Twitter" target="_blank"><span
 											class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social facebook" href="#" aria-label="Facebook"><span
+									<a class="social facebook" href="#" aria-label="Facebook" target="_blank"><span
 											class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social dribbble" href="#" aria-label="Dribbble"><span
+									<a class="social dribbble" href="#" aria-label="Dribbble" target="_blank"><span
 											class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social instagram" href="#" aria-label="Instagram"><span
+									<a class="social instagram" href="#" aria-label="Instagram" target="_blank"><span
 											class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
@@ -169,11 +158,12 @@
 
 	</div>
 	<!-- Principal conteneur END -->
-	<script src="./js/jquery-2.1.0.min.js" async></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.min.js" async></script>
-	<script src="./js/formHandler.min.js"></script>
+	<script src="/js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.min.js" defer></script>
+	<script src="./js/blocs.min.js" defer></script>
+	<script src="./js/jqBootstrapValidation.min.js" defer></script>
+	<script src="./js/formHandler.min.js" defer></script>
+
 
 </body>
 
